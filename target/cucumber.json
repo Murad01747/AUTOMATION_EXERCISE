@@ -1,0 +1,228 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2978536600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1794480300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Go to the application",
+            "match": {
+              "location": "StepDef.go_to_the_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-01T00:44:07.242Z",
+        "line": 10,
+        "name": "As a automation exercise user,Login should pass with valid credential",
+        "description": "",
+        "id": "login-function-test;as-a-automation-exercise-user-login-should-pass-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 299135000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Put valid email",
+            "match": {
+              "location": "StepDef.put_valid_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223733500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Put valid password",
+            "match": {
+              "location": "StepDef.put_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8052924600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105384800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Login should pass and logout button should visible",
+            "match": {
+              "location": "StepDef.login_should_pass_and_logout_button_should_visible()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@TC-1"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1100936000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2403470700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Go to the application",
+            "match": {
+              "location": "StepDef.go_to_the_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-01T00:44:20.702Z",
+        "line": 17,
+        "name": "As a automation exercise user,Login should fail with invalid credential",
+        "description": "",
+        "id": "login-function-test;as-a-automation-exercise-user-login-should-fail-with-invalid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 232545300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Put invalid email",
+            "match": {
+              "location": "StepDef.put_invalid_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217276000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Put invalid password",
+            "match": {
+              "location": "StepDef.put_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6699033500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204333300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Login should fail and contain a msg Your email or password is incorrect!",
+            "match": {
+              "location": "StepDef.login_should_fail_and_contain_a_msg_Your_email_or_password_is_incorrect()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Negative"
+          },
+          {
+            "name": "@TC-2"
+          }
+        ]
+      }
+    ],
+    "name": "Login function test",
+    "description": "",
+    "id": "login-function-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/LoginTestFunction.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
